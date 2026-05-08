@@ -1,0 +1,80 @@
+{
+  "login": {
+    "title": "Welcome back",
+    "description": "Please enter your details to sign in.",
+    "page_title": "Login",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot password?",
+    "remember_me": "Remember me",
+    "submit": "Login",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up"
+  },
+  "register": {
+    "title": "Create an account",
+    "description": "Join us and start managing your social media.",
+    "page_title": "Register",
+    "name": "Name",
+    "name_placeholder": "Your full name",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Create account",
+    "has_account": "Already have an account?",
+    "log_in": "Login",
+    "show_password": "Show password",
+    "hide_password": "Hide password"
+  },
+  "google_login": "Login with Google",
+  "google_signup": "Sign up with Google",
+  "github_login": "Login with GitHub",
+  "github_signup": "Sign up with GitHub",
+  "or_continue_with": "Or continue with",
+  "error": {
+    "auth_failed": "Authentication failed. Please check your credentials and try again.",
+    "google_auth_failed": "Google authentication failed. Ensure it is enabled in your Firebase console."
+  },
+  "forgot_password_page": {
+    "title": "Forgot password",
+    "description": "Enter your email to receive a password reset link.",
+    "page_title": "Forgot Password",
+    "email": "Email",
+    "submit": "Send link",
+    "return_to": "Return to",
+    "log_in": "Login"
+  },
+  "reset_password": {
+    "title": "Reset password",
+    "description": "Choose a new password for your account.",
+    "page_title": "Reset Password",
+    "email": "Email",
+    "password": "New Password",
+    "confirm_password": "Confirm Password",
+    "confirm_placeholder": "Confirm your new password",
+    "submit": "Reset Password"
+  },
+  "auth": {
+    "legal": "By clicking continue, you agree to our <a href='/terms'>Terms of Service</a> and <a href='/privacy'>Privacy Policy</a>."
+  },
+  "sidebar": {
+    "profile": "Profile",
+    "language": "Language: {name}",
+    "support": {
+      "share_feedback": "Share Feedback",
+      "docs": "Documentation"
+    },
+    "log_out": "Log Out"
+  },
+  "settings": {
+    "hub": {
+      "title": "Settings",
+      "description": "Manage your account and app settings."
+    },
+    "profile": {
+      "title": "Profile",
+      "heading": "General Profile",
+      "description": "Update your profile information.",
+      "save": "Save Changes"
+    }
+  }
+}

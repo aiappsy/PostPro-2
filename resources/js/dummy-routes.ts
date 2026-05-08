@@ -1,0 +1,65 @@
+const makeRoute = () => {
+    const url = '#';
+    const fn = (() => url) as any;
+    fn.url = Object.assign(() => url, { toString: () => url });
+    fn.form = () => ({});
+    fn.toString = () => url;
+    return fn;
+};
+
+export const index = makeRoute();
+export const search = makeRoute();
+export const accounts = makeRoute();
+export const archiveAll = makeRoute();
+export const read = makeRoute();
+export const readAll = makeRoute();
+export const edit = makeRoute();
+export const toggle = makeRoute();
+export const checkout = makeRoute();
+export const swap = makeRoute();
+export const logout = makeRoute();
+export const show = makeRoute();
+export const store = makeRoute();
+export const redirect = makeRoute();
+export const update = makeRoute();
+export const metrics = makeRoute();
+export const generate = makeRoute();
+export const review = makeRoute();
+export const destroy = makeRoute();
+export const remove = makeRoute();
+export const updateRole = makeRoute();
+export const deleteLogo = makeRoute();
+export const uploadLogo = makeRoute();
+export const home = makeRoute();
+export const heartbeat = makeRoute();
+export const select = makeRoute();
+export const authorize = makeRoute();
+export const login = makeRoute();
+export const register = makeRoute();
+export const accept = makeRoute();
+export const decline = makeRoute();
+export const email = makeRoute();
+export const request = makeRoute();
+export const send = makeRoute();
+export const calendar = makeRoute();
+export const portal = makeRoute();
+export const preferences = makeRoute();
+export const members = makeRoute();
+export const settings = makeRoute();
+export const brand = makeRoute();
+export const autofill = makeRoute();
+export const create = makeRoute();
+export const switchMethod = makeRoute();
+export const storeFromUrl = makeRoute();
+export const trending = makeRoute();
+export const connectProvider = makeRoute();
+export const deletePhoto = makeRoute();
+export const uploadPhoto = makeRoute();
+export const disconnect = makeRoute();
+export const react = makeRoute();
+export const storeChunked = makeRoute();
+export const analytics = makeRoute();
+
+export default new Proxy({}, { 
+  get: () => makeRoute() 
+});
